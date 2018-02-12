@@ -28,6 +28,11 @@ dpkg -i $HOME/Desktop/mining/downloads/teamviewer_amd64.deb
 #resolve dependencies
 apt-get -f install -y
 
+git -C $HOME/Desktop/mining/scripts/ clone https://github.com/abcdmining/rig-scripts
+
+# Copy configured miner.txt
+cp $HOME/Desktop/mining/scripts/rig-scripts/miner.txt $HOME/Desktop/mining/miners/EggMinerGpuLin2/miner.txt
+
 # Move miner-deafult.sh to miner.sh
 cp $HOME/Desktop/mining/miners/EggMinerGpuLin2/mine-default.sh $HOME/Desktop/mining/miners/EggMinerGpuLin2/miner.sh
 sleep 10

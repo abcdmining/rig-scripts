@@ -1,2 +1,2 @@
 # Where to send payments
-miner_address=55713816bf48b85cc1b03db521c0142f99402925d05e726b476a67a4
+miner_address=9e4a05b6254997b66e28222236de4c97fdacb82c87bbab8293c42545
