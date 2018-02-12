@@ -1,4 +1,11 @@
-MineTime
+# Rig Scripts
+
+### Manually control GPUS (enable cool bits)
+```
+nvidia-xconfig --enable-all-gpus
+nvidia-xconfig --cool-bits=12
+systemctl restart lightdm.service
+```
 
 Useful Commands
 
@@ -27,17 +34,6 @@ View Performance State
 
     nvidia-smi -q -d PERFORMANCE
 
-
-
-Add ability to manually control GPUS (enable cool bits)
-
-    nvidia-xconfig --enable-all-gpus
-    nvidia-xconfig --cool-bits=12
-
-Restart windows manager after making changes or just reboot
-
-    systemctl restart lightdm.service
-    
 
 Set NVIDIA power to persistance level 1 (need to research this more)
 
