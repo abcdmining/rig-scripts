@@ -17,18 +17,3 @@
   [Intel BX80677G3930 7th Gen Celeron Desktop Processors](https://www.amazon.com/gp/product/B01MYTY55V/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1)
 * Case (2) -
   [3 of Veddha 6 GPU Minercase V3C Aluminum Stackable Mining Rig Open Air Frame Case (BlackStorm)](https://www.amazon.com/gp/product/B076MQQ1DT/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1)
-
-## Benchmarks
-
-### [Eggpool.net](http://eggpool.net/index.php?action=miner&miner=9e4a05b6254997b66e28222236de4c97fdacb82c87bbab8293c42545)
-
-**Coin** - Bismuth<br> **Script** - EggMinerGpuLin2<br> **Worker** - Rig
-2
-
-
-v = GPU that has the video output enabled<br> o = All other GPU's<br> CO
-= GPUGraphicsClockOffset<br> TRO = GPUMemoryTransferRateOffset
-
-|  Date   |  Hashrate  | vFan | vWatts | vCO  | vTRO | oFan | oWatts | oCO  | oTRO |
-|:-------:|:----------:|:----:|:------:|:----:|:----:|:----:|:------:|:----:|:----:|
-| 2-12-18 | 14.85 GH/s | 100  |  180   | null | null |  85  |  120   | null | null |
