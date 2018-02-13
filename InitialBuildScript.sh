@@ -40,3 +40,6 @@ sleep 10
 #Set insane permissions
 chmod 777 -R $HOME/Desktop/mining 
 
+apt-get update
+
+apt-get dist-upgrade
