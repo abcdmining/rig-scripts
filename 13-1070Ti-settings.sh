@@ -29,11 +29,11 @@ nvidia-smi -i 4 -pl $lowWatt
 nvidia-smi -i 5 -pl $lowWatt
 nvidia-smi -i 6 -pl $lowWatt
 nvidia-smi -i 7 -pl $lowWatt
-nvidia-smi -i 8 -pl 180
-nvidia-smi -i 9 -pl 180
-nvidia-smi -i 10 -pl 180
-nvidia-smi -i 11 -pl 180
-nvidia-smi -i 12 -pl 180
+nvidia-smi -i 8 -pl $lowWatt
+nvidia-smi -i 9 -pl $lowWatt
+nvidia-smi -i 10 -pl $lowWatt
+nvidia-smi -i 11 -pl $lowWatt
+nvidia-smi -i 12 -pl $lowWatt
 
 nvidia-settings -a [gpu:0]/GPUGraphicsClockOffset[3]=$clockOffset
 nvidia-settings -a [gpu:0]/GPUMemoryTransferRateOffset[3]=$memoryOffset
