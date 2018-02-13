@@ -2,7 +2,7 @@
 
 #!/bin/bash
 
-clockOffset="240"
+clockOffset="230"
 memoryOffset="100"
 
 nvidia-settings -a [gpu:0]/GPUFanControlState=1 -a [fan:0]/GPUTargetFanSpeed=85
