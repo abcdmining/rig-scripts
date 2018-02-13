@@ -3,7 +3,7 @@
 #!/bin/bash
 
 clockOffset="200"
-memoryOffset="400"
+memoryOffset="500"
 lowWatt="120"
 
 nvidia-settings -a [gpu:0]/GPUFanControlState=1 -a [fan:0]/GPUTargetFanSpeed=85
