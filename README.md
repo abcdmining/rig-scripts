@@ -3,7 +3,7 @@
 ### Manually control GPUS (enable cool bits)
 ```
 nvidia-xconfig --enable-all-gpus
-nvidia-xconfig --cool-bits=12
+nvidia-xconfig --cool-bits=28
 systemctl restart lightdm.service
 ```
 
