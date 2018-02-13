@@ -2,8 +2,8 @@
 
 #!/bin/bash
 
-clockOffset="200"
-memoryOffset="0"
+clockOffset="150"
+memoryOffset="100"
 lowWatt="120"
 highWatt="180"
 
@@ -25,7 +25,7 @@ nvidia-settings -a [gpu:12]/GPUFanControlState=1 -a [fan:12]/GPUTargetFanSpeed=8
 nvidia-smi -i 0 -pl $lowWatt
 nvidia-smi -i 1 -pl $lowWatt
 nvidia-smi -i 2 -pl $lowWatt
-nvidia-smi -i 3 -pl $lowWatt
+nvidia-smi -i 3 -pl $highWatt
 nvidia-smi -i 4 -pl $lowWatt
 nvidia-smi -i 5 -pl $lowWatt
 nvidia-smi -i 6 -pl $lowWatt
