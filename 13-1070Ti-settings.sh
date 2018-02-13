@@ -2,10 +2,10 @@
 
 #!/bin/bash
 
-clockOffset="200"
+clockOffset="125"
 #memoryOffset="100"
 lowWatt="120"
-highWatt="180"
+highWatt="160"
 
 nvidia-settings -a [gpu:0]/GPUFanControlState=1 -a [fan:0]/GPUTargetFanSpeed=85
 nvidia-settings -a [gpu:1]/GPUFanControlState=1 -a [fan:1]/GPUTargetFanSpeed=85
