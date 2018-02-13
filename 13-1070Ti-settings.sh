@@ -4,6 +4,7 @@
 
 clockOffset="240"
 memoryOffset="300"
+lowWatt="125"
 
 nvidia-settings -a [gpu:0]/GPUFanControlState=1 -a [fan:0]/GPUTargetFanSpeed=85
 nvidia-settings -a [gpu:1]/GPUFanControlState=1 -a [fan:1]/GPUTargetFanSpeed=85
@@ -20,14 +21,14 @@ nvidia-settings -a [gpu:11]/GPUFanControlState=1 -a [fan:11]/GPUTargetFanSpeed=8
 nvidia-settings -a [gpu:12]/GPUFanControlState=1 -a [fan:12]/GPUTargetFanSpeed=85
 
 
-nvidia-smi -i 0 -pl 120
-nvidia-smi -i 1 -pl 120
-nvidia-smi -i 2 -pl 120
-nvidia-smi -i 3 -pl 120
-nvidia-smi -i 4 -pl 120
-nvidia-smi -i 5 -pl 120
-nvidia-smi -i 6 -pl 120
-nvidia-smi -i 7 -pl 120
+nvidia-smi -i 0 -pl $lowWatt
+nvidia-smi -i 1 -pl $lowWatt
+nvidia-smi -i 2 -pl $lowWatt
+nvidia-smi -i 3 -pl 180
+nvidia-smi -i 4 -pl $lowWatt
+nvidia-smi -i 5 -pl $lowWatt
+nvidia-smi -i 6 -pl $lowWatt
+nvidia-smi -i 7 -pl $lowWatt
 nvidia-smi -i 8 -pl 180
 nvidia-smi -i 9 -pl 180
 nvidia-smi -i 10 -pl 180
