@@ -4,7 +4,7 @@
 
 clockOffset="125"
 #memoryOffset="100"
-lowWatt="120"
+lowWatt="150"
 highWatt="160"
 
 nvidia-settings -a [gpu:0]/GPUFanControlState=1 -a [fan:0]/GPUTargetFanSpeed=85
@@ -29,23 +29,23 @@ nvidia-smi -i 3 -pl $lowWatt
 nvidia-smi -i 4 -pl $lowWatt
 nvidia-smi -i 5 -pl $lowWatt
 nvidia-smi -i 6 -pl $lowWatt
-nvidia-smi -i 7 -pl $lowWatt
+nvidia-smi -i 7 -pl $highWatt
 nvidia-smi -i 8 -pl $highWatt
 nvidia-smi -i 9 -pl $highWatt
 nvidia-smi -i 10 -pl $highWatt
 nvidia-smi -i 11 -pl $highWatt
 
 nvidia-settings -a [gpu:0]/GPUGraphicsClockOffset[3]=$clockOffset
-#nvidia-settings -a [gpu:0]/GPUMemoryTransferRateOffset[3]=$memoryOffset
+nvidia-settings -a [gpu:0]/GPUMemoryTransferRateOffset[3]=$memoryOffset
 
 nvidia-settings -a [gpu:1]/GPUGraphicsClockOffset[3]=$clockOffset
-#nvidia-settings -a [gpu:1]/GPUMemoryTransferRateOffset[3]=$memoryOffset
+nvidia-settings -a [gpu:1]/GPUMemoryTransferRateOffset[3]=$memoryOffset
 
 nvidia-settings -a [gpu:2]/GPUGraphicsClockOffset[3]=$clockOffset
-#nvidia-settings -a [gpu:2]/GPUMemoryTransferRateOffset[3]=$memoryOffset
+nvidia-settings -a [gpu:2]/GPUMemoryTransferRateOffset[3]=$memoryOffset
 
 nvidia-settings -a [gpu:3]/GPUGraphicsClockOffset[3]=$clockOffset
-#nvidia-settings -a [gpu:3]/GPUMemoryTransferRateOffset[3]=$memoryOffset
+nvidia-settings -a [gpu:3]/GPUMemoryTransferRateOffset[3]=$memoryOffset
 
 nvidia-settings -a [gpu:4]/GPUGraphicsClockOffset[3]=$clockOffset
 #nvidia-settings -a [gpu:4]/GPUMemoryTransferRateOffset[3]=$memoryOffset
