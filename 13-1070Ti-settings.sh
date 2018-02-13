@@ -24,48 +24,61 @@ nvidia-smi -i 4 -pl 120
 nvidia-smi -i 5 -pl 120
 nvidia-smi -i 6 -pl 120
 nvidia-smi -i 7 -pl 120
-nvidia-smi -i 8 -pl 150
-nvidia-smi -i 9 -pl 150
-nvidia-smi -i 10 -pl 150
-nvidia-smi -i 11 -pl 150
-nvidia-smi -i 12 -pl 150
+nvidia-smi -i 8 -pl 160
+nvidia-smi -i 9 -pl 160
+nvidia-smi -i 10 -pl 160
+nvidia-smi -i 11 -pl 160
+nvidia-smi -i 12 -pl 160
 
-nvidia-settings -a [gpu:0]/GPUGraphicsClockOffset[3]=180
-nvidia-settings -a [gpu:0]/GPUMemoryTransferRateOffset[3]=500
+nvidia-settings -a [gpu:0]/GPUGraphicsClockOffset[3]=150
+nvidia-settings -a [gpu:0]/GPUMemoryTransferRateOffset[3]=200
+nvidia-settings -a [gpu:0]/GPUGraphicsMemoryOffset[3]=200
 
-nvidia-settings -a [gpu:1]/GPUGraphicsClockOffset[3]=180
-nvidia-settings -a [gpu:1]/GPUMemoryTransferRateOffset[3]=500
+nvidia-settings -a [gpu:1]/GPUGraphicsClockOffset[3]=150
+nvidia-settings -a [gpu:1]/GPUMemoryTransferRateOffset[3]=200
+nvidia-settings -a [gpu:1]/GPUGraphicsMemoryOffset[3]=200
 
-nvidia-settings -a [gpu:2]/GPUGraphicsClockOffset[3]=180
-nvidia-settings -a [gpu:2]/GPUMemoryTransferRateOffset[3]=500
+nvidia-settings -a [gpu:2]/GPUGraphicsClockOffset[3]=150
+nvidia-settings -a [gpu:2]/GPUMemoryTransferRateOffset[3]=200
+nvidia-settings -a [gpu:2]/GPUGraphicsMemoryOffset[3]=200
 
-nvidia-settings -a [gpu:3]/GPUGraphicsClockOffset[3]=180
-nvidia-settings -a [gpu:3]/GPUMemoryTransferRateOffset[3]=500
+nvidia-settings -a [gpu:3]/GPUGraphicsClockOffset[3]=150
+nvidia-settings -a [gpu:3]/GPUMemoryTransferRateOffset[3]=200
+nvidia-settings -a [gpu:3]/GPUGraphicsMemoryOffset[3]=200
 
-nvidia-settings -a [gpu:4]/GPUGraphicsClockOffset[3]=180
-nvidia-settings -a [gpu:4]/GPUMemoryTransferRateOffset[3]=500
+nvidia-settings -a [gpu:4]/GPUGraphicsClockOffset[3]=150
+nvidia-settings -a [gpu:4]/GPUMemoryTransferRateOffset[3]=200
+nvidia-settings -a [gpu:4]/GPUGraphicsMemoryOffset[3]=200
 
-nvidia-settings -a [gpu:5]/GPUGraphicsClockOffset[3]=180
-nvidia-settings -a [gpu:5]/GPUMemoryTransferRateOffset[3]=500
+nvidia-settings -a [gpu:5]/GPUGraphicsClockOffset[3]=150
+nvidia-settings -a [gpu:5]/GPUMemoryTransferRateOffset[3]=200
+nvidia-settings -a [gpu:5]/GPUGraphicsMemoryOffset[3]=200
 
-nvidia-settings -a [gpu:6]/GPUGraphicsClockOffset[3]=180
-nvidia-settings -a [gpu:6]/GPUMemoryTransferRateOffset[3]=500
+nvidia-settings -a [gpu:6]/GPUGraphicsClockOffset[3]=150
+nvidia-settings -a [gpu:6]/GPUMemoryTransferRateOffset[3]=200
+nvidia-settings -a [gpu:6]/GPUGraphicsMemoryOffset[3]=200
 
-nvidia-settings -a [gpu:7]/GPUGraphicsClockOffset[3]=180
-nvidia-settings -a [gpu:7]/GPUMemoryTransferRateOffset[3]=500
+nvidia-settings -a [gpu:7]/GPUGraphicsClockOffset[3]=150
+nvidia-settings -a [gpu:7]/GPUMemoryTransferRateOffset[3]=200
+nvidia-settings -a [gpu:7]/GPUGraphicsMemoryOffset[3]=200
 
-nvidia-settings -a [gpu:8]/GPUGraphicsClockOffset[3]=180
-nvidia-settings -a [gpu:8]/GPUMemoryTransferRateOffset[3]=500
+nvidia-settings -a [gpu:8]/GPUGraphicsClockOffset[3]=150
+nvidia-settings -a [gpu:8]/GPUMemoryTransferRateOffset[3]=200
+nvidia-settings -a [gpu:8]/GPUGraphicsMemoryOffset[3]=200
 
-nvidia-settings -a [gpu:9]/GPUGraphicsClockOffset[3]=180
-nvidia-settings -a [gpu:9]/GPUMemoryTransferRateOffset[3]=500
+nvidia-settings -a [gpu:9]/GPUGraphicsClockOffset[3]=150
+nvidia-settings -a [gpu:9]/GPUMemoryTransferRateOffset[3]=200
+nvidia-settings -a [gpu:9]/GPUGraphicsMemoryOffset[3]=200
 
-nvidia-settings -a [gpu:10]/GPUGraphicsClockOffset[3]=180
-nvidia-settings -a [gpu:10]/GPUMemoryTransferRateOffset[3]=500
+nvidia-settings -a [gpu:10]/GPUGraphicsClockOffset[3]=150
+nvidia-settings -a [gpu:10]/GPUMemoryTransferRateOffset[3]=200
+nvidia-settings -a [gpu:10]/GPUGraphicsMemoryOffset[3]=200
 
-nvidia-settings -a [gpu:11]/GPUGraphicsClockOffset[3]=180
-nvidia-settings -a [gpu:11]/GPUMemoryTransferRateOffset[3]=500
+nvidia-settings -a [gpu:11]/GPUGraphicsClockOffset[3]=150
+nvidia-settings -a [gpu:11]/GPUMemoryTransferRateOffset[3]=200
+nvidia-settings -a [gpu:11]/GPUGraphicsMemoryOffset[3]=200
 
-nvidia-settings -a [gpu:12]/GPUGraphicsClockOffset[3]=180
-nvidia-settings -a [gpu:12]/GPUMemoryTransferRateOffset[3]=500
+nvidia-settings -a [gpu:12]/GPUGraphicsClockOffset[3]=150
+nvidia-settings -a [gpu:12]/GPUMemoryTransferRateOffset[3]=200
+nvidia-settings -a [gpu:12]/GPUGraphicsMemoryOffset[3]=200
 
