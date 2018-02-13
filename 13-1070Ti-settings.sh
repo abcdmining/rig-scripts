@@ -2,8 +2,8 @@
 
 #!/bin/bash
 
-clockOffset="200"
-memoryOffset="400"
+clockOffset="150"
+memoryOffset="950"
 
 nvidia-settings -a [gpu:0]/GPUFanControlState=1 -a [fan:0]/GPUTargetFanSpeed=85
 nvidia-settings -a [gpu:1]/GPUFanControlState=1 -a [fan:1]/GPUTargetFanSpeed=85
@@ -28,11 +28,11 @@ nvidia-smi -i 4 -pl 120
 nvidia-smi -i 5 -pl 120
 nvidia-smi -i 6 -pl 120
 nvidia-smi -i 7 -pl 120
-nvidia-smi -i 8 -pl 180
-nvidia-smi -i 9 -pl 180
-nvidia-smi -i 10 -pl 180
-nvidia-smi -i 11 -pl 180
-nvidia-smi -i 12 -pl 180
+nvidia-smi -i 8 -pl 140
+nvidia-smi -i 9 -pl 140
+nvidia-smi -i 10 -pl 140
+nvidia-smi -i 11 -pl 140
+nvidia-smi -i 12 -pl 140
 
 nvidia-settings -a [gpu:0]/GPUGraphicsClockOffset[3]=$clockOffset
 nvidia-settings -a [gpu:0]/GPUMemoryTransferRateOffset[3]=$memoryOffset
