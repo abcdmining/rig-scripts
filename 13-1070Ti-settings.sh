@@ -36,19 +36,6 @@ nvidia-smi -i 9 -pl $highWatt
 nvidia-smi -i 10 -pl $highWatt
 nvidia-smi -i 11 -pl $highWatt
 
-nvidia-smi -i 0 -t 0
-nvidia-smi -i 1 -t 0
-nvidia-smi -i 2 -t 0
-nvidia-smi -i 3 -t 0
-nvidia-smi -i 4 -t 0
-nvidia-smi -i 5 -t 0
-nvidia-smi -i 6 -t 0
-nvidia-smi -i 7 -t 0
-nvidia-smi -i 8 -t 0
-nvidia-smi -i 9 -t 0
-nvidia-smi -i 10 -t 0
-nvidia-smi -i 11 -t 0
-
 #nvidia-settings -a [gpu:0]/GpuPowerMizerMode=1
 nvidia-settings -a [gpu:0]/GPUGraphicsClockOffset[3]=$clockOffset
 #nvidia-settings -a [gpu:0]/GPUMemoryTransferRateOffset[2]=$memoryOffset
