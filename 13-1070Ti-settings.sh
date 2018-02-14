@@ -23,18 +23,18 @@ nvidia-settings -a [gpu:10]/GPUFanControlState=1 -a [fan:10]/GPUTargetFanSpeed=8
 nvidia-settings -a [gpu:11]/GPUFanControlState=1 -a [fan:11]/GPUTargetFanSpeed=85
 
 
-nvidia-smi -i 0 -pl $lowWatt
-nvidia-smi -i 1 -pl $lowWatt
-nvidia-smi -i 2 -pl $lowWatt
-nvidia-smi -i 3 -pl $lowWatt
-nvidia-smi -i 4 -pl $lowWatt
-nvidia-smi -i 5 -pl $lowWatt
-nvidia-smi -i 6 -pl $lowWatt
-nvidia-smi -i 7 -pl $highWatt
-nvidia-smi -i 8 -pl $highWatt
-nvidia-smi -i 9 -pl $highWatt
-nvidia-smi -i 10 -pl $highWatt
-nvidia-smi -i 11 -pl $highWatt
+nvidia-smi -i 0 -pl $lowWatt -t 0
+nvidia-smi -i 1 -pl $lowWatt -t 0
+nvidia-smi -i 2 -pl $lowWatt -t 0
+nvidia-smi -i 3 -pl $lowWatt -t 0
+nvidia-smi -i 4 -pl $lowWatt -t 0
+nvidia-smi -i 5 -pl $lowWatt -t 0
+nvidia-smi -i 6 -pl $lowWatt -t 0
+nvidia-smi -i 7 -pl $highWatt -t 0
+nvidia-smi -i 8 -pl $highWatt -t 0
+nvidia-smi -i 9 -pl $highWatt -t 0
+nvidia-smi -i 10 -pl $highWatt -t 0
+nvidia-smi -i 11 -pl $highWatt -t 0
 
 #nvidia-settings -a [gpu:0]/GpuPowerMizerMode=1
 nvidia-settings -a [gpu:0]/GPUGraphicsClockOffset[3]=$clockOffset
