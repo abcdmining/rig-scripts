@@ -19,7 +19,6 @@ nvidia-settings -a [gpu:8]/GPUFanControlState=1 -a [fan:8]/GPUTargetFanSpeed=85
 nvidia-settings -a [gpu:9]/GPUFanControlState=1 -a [fan:9]/GPUTargetFanSpeed=85
 nvidia-settings -a [gpu:10]/GPUFanControlState=1 -a [fan:10]/GPUTargetFanSpeed=85
 nvidia-settings -a [gpu:11]/GPUFanControlState=1 -a [fan:11]/GPUTargetFanSpeed=85
-nvidia-settings -a [gpu:12]/GPUFanControlState=1 -a [fan:12]/GPUTargetFanSpeed=85
 
 
 nvidia-smi -i 0 -pl $lowWatt
