@@ -4,8 +4,8 @@
 
 clockOffset="0"
 #memoryOffset="300"
-lowWatt="120"
-highWatt="140"
+lowWatt="180"
+highWatt="180"
 
 nvidia-settings -a [gpu:0]/GPUFanControlState=1 -a [fan:0]/GPUTargetFanSpeed=85
 nvidia-settings -a [gpu:1]/GPUFanControlState=1 -a [fan:1]/GPUTargetFanSpeed=85
