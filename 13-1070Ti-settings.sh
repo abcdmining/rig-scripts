@@ -3,9 +3,9 @@
 #!/bin/bash
 
 clockOffset="150"
-memoryOffset="500"
+memoryOffset="900"
 lowWatt="160"
-highWatt="180"
+highWatt="160"
 
 nvidia-settings -a [gpu:0]/GPUFanControlState=1 -a [fan:0]/GPUTargetFanSpeed=85
 nvidia-settings -a [gpu:1]/GPUFanControlState=1 -a [fan:1]/GPUTargetFanSpeed=85
@@ -19,7 +19,6 @@ nvidia-settings -a [gpu:8]/GPUFanControlState=1 -a [fan:8]/GPUTargetFanSpeed=85
 nvidia-settings -a [gpu:9]/GPUFanControlState=1 -a [fan:9]/GPUTargetFanSpeed=85
 nvidia-settings -a [gpu:10]/GPUFanControlState=1 -a [fan:10]/GPUTargetFanSpeed=85
 nvidia-settings -a [gpu:11]/GPUFanControlState=1 -a [fan:11]/GPUTargetFanSpeed=85
-
 
 nvidia-smi -i 0 -pl $lowWatt
 nvidia-smi -i 1 -pl $lowWatt
