@@ -1,21 +1,27 @@
 globalminer claymore
 maxgputemp 85
 stratumproxy enabled
-proxywallet 0xc63008dc8e233bf4443eeba56b29a4c7e59ee5ea.Rig1
-dualminer enabled
-dualminer-coin blake2s
+proxywallet 0xc63008dc8e233bf4443eeba56b29a4c7e59ee5ea
 proxypool1 us1.ethermine.org:4444
 proxypool2 us2.ethermine.org:4444
-dualminer-pool stratum+tcp://s.antminepool.com:9008
-dualminer-wallet D77cqnRYKSJR3jE4amwyrPQiJwMWMhRoXk.Rig1
-dualminer-poolpass C=XVG
-flags --cl-global-work 8192 --farm-recheck 200
+flags --cl-global-work 16387 --farm-recheck 100
 poolemail info@abcdmining.com
 globalfan 85
 globalcore 1200
-globalmem 2200
-globalpowertune 3
-claymore=flags -colors 1 -gser 2 -dcri 50
+globalmem 2150
+
+#vlt 6d4d27 900 900 900 900 900 900 900 900 900 900 900 900
+
+dualminer enabled
+dualminer-coin blake2s
+dualminer-pool stratum+tcp://s.antminepool.com:9008
+dualminer-wallet D77cqnRYKSJR3jE4amwyrPQiJwMWMhRoXk
+dualminer-poolpass C=XVG
+
+claymore=flags -colors 1 -ftime 10 -cvddc 900 -mvddc 900 -dcri 15
+
+
+
 #claymore=flags -colors 1 -mode 0 -gser 2 -epool us1.ethermine.org:4444 -ewal 0xc63008dc8e233bf4443eeba56b29a4c7e59ee5ea.Rig1/info@abcdmining.com -epsw x -dpool stratum+tcp://s.antminepool.com:9008 -dwal D77cqnRYKSJR3jE4amwyrPQiJwMWMhRoXk -dcoin blake2s -dpsw c=XVGB -dcri 50
 
 # ethOS Pool: ethosdistro.com/pool
