@@ -10,7 +10,7 @@ globalfan 85
 globalcore 1200
 globalmem 2150
 
-#vlt 6d4d27 900 900 900 900 900 900 900 900 900 900 900 900
+vlt 6d4d27 900 900 900 900 900 900 900 900 900 900 900 900
 
 dualminer enabled
 dualminer-coin blake2s
@@ -18,7 +18,8 @@ dualminer-pool stratum+tcp://s.antminepool.com:9008
 dualminer-wallet D77cqnRYKSJR3jE4amwyrPQiJwMWMhRoXk
 dualminer-poolpass C=XVG
 
-claymore=flags -colors 1 -ftime 10 -cvddc 900 -mvddc 900 -dcri 15
+#claymore=flags -colors 1 -ftime 10 -cvddc 900 -mvddc 900 -cclock 1250 -mclock 2200
+claymore=flags -colors 1 -ftime 10 -dcri 20
 
 
 
