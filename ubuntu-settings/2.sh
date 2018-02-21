@@ -2,7 +2,7 @@
 
 #!/bin/bash
 
-clockOffset="250"
+clockOffset="225"
 memoryOffset="900"
 lowWatt="160"
 highWatt="160"
