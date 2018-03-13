@@ -48,5 +48,5 @@ nvidia-settings -a [gpu:5]/GPUMemoryTransferRateOffset[3]=$memoryOffset
 nvidia-settings -a [gpu:6]/GPUGraphicsClockOffset[3]=$clockOffset
 nvidia-settings -a [gpu:6]/GPUMemoryTransferRateOffset[3]=$memoryOffset
 
-nvidia-settings -a [gpu:7]/GPUGraphicsClockOffset[3]=clockOffsetLow
+nvidia-settings -a [gpu:7]/GPUGraphicsClockOffset[3]=$clockOffsetLow
 nvidia-settings -a [gpu:7]/GPUMemoryTransferRateOffset[3]=$memoryOffset
