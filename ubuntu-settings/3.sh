@@ -3,6 +3,7 @@
 #!/bin/bash
 
 clockOffset="200"
+clockOffsetLow="150"
 memoryOffset="400"
 watt1070="160"
 watt1080="160"
@@ -47,5 +48,5 @@ nvidia-settings -a [gpu:5]/GPUMemoryTransferRateOffset[3]=$memoryOffset
 nvidia-settings -a [gpu:6]/GPUGraphicsClockOffset[3]=$clockOffset
 nvidia-settings -a [gpu:6]/GPUMemoryTransferRateOffset[3]=$memoryOffset
 
-nvidia-settings -a [gpu:7]/GPUGraphicsClockOffset[3]=$clockOffset
+nvidia-settings -a [gpu:7]/GPUGraphicsClockOffset[3]=clockOffsetLow
 nvidia-settings -a [gpu:7]/GPUMemoryTransferRateOffset[3]=$memoryOffset
