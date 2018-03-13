@@ -5,7 +5,8 @@
 clockOffset="200"
 memoryOffset="400"
 watt1070="160"
-highWatt="160"
+watt1080="160"
+watt1080ti="190"
 
 nvidia-settings -a [gpu:0]/GPUFanControlState=1 -a [fan:0]/GPUTargetFanSpeed=85
 nvidia-settings -a [gpu:1]/GPUFanControlState=1 -a [fan:1]/GPUTargetFanSpeed=85
@@ -20,18 +21,18 @@ nvidia-settings -a [gpu:9]/GPUFanControlState=1 -a [fan:9]/GPUTargetFanSpeed=85
 nvidia-settings -a [gpu:10]/GPUFanControlState=1 -a [fan:10]/GPUTargetFanSpeed=85
 nvidia-settings -a [gpu:11]/GPUFanControlState=1 -a [fan:11]/GPUTargetFanSpeed=85
 
-nvidia-smi -i 0 -pl $lowWatt
-nvidia-smi -i 1 -pl $lowWatt
-nvidia-smi -i 2 -pl $lowWatt
-nvidia-smi -i 3 -pl highWatt
-nvidia-smi -i 4 -pl $lowWatt
-nvidia-smi -i 5 -pl $lowWatt
-nvidia-smi -i 6 -pl $lowWatt
-nvidia-smi -i 7 -pl $lowWatt
-nvidia-smi -i 8 -pl $lowWatt
-nvidia-smi -i 9 -pl $lowWatt
-nvidia-smi -i 10 -pl $lowWatt
-nvidia-smi -i 11 -pl $lowWatt
+nvidia-smi -i 0 -pl $watt1070
+nvidia-smi -i 1 -pl $watt1070
+nvidia-smi -i 2 -pl $watt1070
+nvidia-smi -i 3 -pl $watt1070
+nvidia-smi -i 4 -pl $watt1070
+nvidia-smi -i 5 -pl $watt1070
+nvidia-smi -i 6 -pl $watt1070
+nvidia-smi -i 7 -pl $watt1070
+nvidia-smi -i 8 -pl $watt1070
+nvidia-smi -i 9 -pl $watt1070
+nvidia-smi -i 10 -pl $watt1070
+nvidia-smi -i 11 -pl $watt1070
 
 nvidia-settings -a [gpu:0]/GPUGraphicsClockOffset[3]=$clockOffset
 nvidia-settings -a [gpu:0]/GPUMemoryTransferRateOffset[3]=$memoryOffset
